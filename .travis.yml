@@ -5,6 +5,7 @@ script:
   - "npm install"
   - "bower install"
   - "npm install -g grunt-cli"
+  - "gem install compass"
   - "grunt build"
   - "grunt"
 deploy:
