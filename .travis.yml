@@ -7,7 +7,6 @@ script:
   - "npm install -g grunt-cli"
   - "gem install compass"
   - "grunt build"
-  - "grunt"
 deploy:
   provider: npm
   email: "connect@quixam.com"
