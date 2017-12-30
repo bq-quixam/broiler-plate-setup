@@ -4,6 +4,7 @@ node_js:
 script:
   - "npm install"
   - "bower install"
+  - "npm install -g grunt-cli"
   - "grunt build"
   - "grunt"
 deploy:
