@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 6.9.5
+script:
+  - "npm install"
+  - "bower install"
+  - "grunt build"
+  - "grunt"
+deploy:
+  provider: npm
+  email: "connect@quixam.com"
+  api_key: "a1c27198-83a2-4e3e-a278-21ae1c3546e0"
+  skip_cleanup: true
