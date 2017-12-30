@@ -13,6 +13,7 @@ deploy:
   api_key: "a1c27198-83a2-4e3e-a278-21ae1c3546e0"
   on:
     tags: true
+    repo: quixam/broilerplatesetup
     branch: develop
   skip_cleanup: true
 
